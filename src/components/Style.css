@@ -1,0 +1,103 @@
+/* NavBar */
+.logo {
+  width: 160px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.navbar {
+  /* background-color: yellow; */
+  width: 350px;
+  height: 100vh;
+  border-right: 1px solid rgb(77, 76, 76);
+  position: fixed;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+i {
+  color: black;
+  padding: 25px;
+  padding-right: 35px;
+}
+/* Status Bar */
+
+.status-img {
+  width: 600px;
+  margin: 50px 0 0 600px;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.status {
+  padding: 10px;
+}
+/* Post feed */
+.main-body {
+  width: 600px;
+  margin: 50px 0 0 600px;
+}
+.post-header {
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.show-all {
+  border: none;
+  color: rgb(66, 66, 95);
+  background-color: transparent;
+  font-size: 30px;
+}
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+.show-all:hover {
+  color: blue;
+}
+
+.post-image {
+  width: 100%;
+  height: 600px;
+}
+/* Footer */
+
+.footer_icons i {
+  justify-content: flex-start;
+  margin: 30px 0 0 0;
+  padding: 8px;
+}
+.likes {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 0 10px;
+}
+.comment-box {
+  border: none;
+  width: 100%;
+}
+.comment-box:focus {
+  outline: 0;
+}
+
+/* Sugested Users*/
+
+.user {
+  width: 350px;
+  margin: 50px 0 0 180px;
+}
+.switch_account {
+  border: none;
+  background: none;
+  color: skyblue;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.switch_account :hover {
+  color: black;
+}
